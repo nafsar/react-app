@@ -9,14 +9,14 @@ const initState = {
             title: 'Model 3',
             desc: "Model 3 is designed for electric-powered performance.",
             price: 49,
-            img: 'images/model3.png'
+            img: './images/model3.png'
         },
         {
             id: 2,
             title: 'Model X',
             desc: "Model X is built for efficiency, with standard all-wheel drive.",
             price: 90,
-            img: 'images/modelx.png'
+            img: './images/modelx.png'
             /* img: '%PUBLIC_URL%/images/item2.jpg' */
 
         },
@@ -25,28 +25,28 @@ const initState = {
             title: 'Model S',
             desc: "Model S is built for speed and endurance, with ludicrous acceleration.",
             price: 80,
-            img: 'images/models.png'
+            img: './images/models.png'
         },
         {
             id: 4,
             title: 'Model Y',
             desc: "Model Y has a 300 mile range, 0-60 mph acceleration in 3.5 seconds.",
             price: 52,
-            img: 'images/modely.png'
+            img: './images/modely.png'
         },
         {
             id: 5,
             title: 'CyberTruck',
             desc: "Cybertruck is designed to have the utility of a truck with sports car performance.",
             price: 49,
-            img: 'images/modelt.png'
+            img: './images/modelt.png'
         },
         {
             id: 6,
             title: 'Roadster',
             desc: "The quickest car in the world, with record-setting acceleration.",
             price: 250,
-            img: 'images/modelr.png'
+            img: './images/modelr.png'
         }
     ],
     addedItems: [],
